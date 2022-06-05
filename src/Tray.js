@@ -3,7 +3,7 @@ export default function Tray({ cards }) {
     <ul>
       {cards.map(({ id, tier, farbe }) => (
         <li key={id}>
-          Tier: {tier}, Farbe: {farbe}
+          {tier} {farbe}
         </li>
       ))}
     </ul>
